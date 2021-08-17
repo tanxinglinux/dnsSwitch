@@ -6,7 +6,7 @@ import pprint
 import aliyunsdkecs
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkecs.request.v20140526 import DescribeInstancesRequest,DescribeDisksRequest,DescribeRegionsRequest,DescribeInstanceRamRoleRequest,ModifyInstanceAttributeRequest
-client = AcsClient('LTAIk4v3dFs0Mrry','zVTBAHnu6yt77ykv5cijIrFcDyUWQ8','cn-shenzhen')
+client = AcsClient('xxx','xxx','cn-shenzhen')
 
 req = DescribeInstancesRequest.DescribeInstancesRequest()
 # req1 = DescribeDisksRequest.DescribeDisksRequest()
